@@ -6,9 +6,9 @@ module.exports = {
     onload(client) {
         const cfg = ensure('systems', 'logger', {
             webhook: {
-                url: '',
+                access: '',
                 username: 'Logger',
-                avatarURL: ''
+                avatar: ''
             }
         });
         client.logger = {};
