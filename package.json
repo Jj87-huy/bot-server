@@ -11,7 +11,9 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "st": "node main.js",
+    "upload": "git add . && git commit -m \"update\" && git push"
   },
   "repository": {
     "type": "git",
