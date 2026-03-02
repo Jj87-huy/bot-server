@@ -13,7 +13,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "st": "node main.js",
-    "upload": "git add . && git commit -m \"update\" && git push"
+    "upload": "git pull --no-rebase && git add . && git add package.json && git diff --cached --quiet || git commit -m \"Update 1234567890\" && git push -u origin main"
   },
   "repository": {
     "type": "git",
